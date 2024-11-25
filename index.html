@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fitness</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <body>
-        <div id="nav">
-            <h4>Home</h4>
-            <h4>Products</h4>
-            <h4>MY Playlist</h4>
-            <h4>About Us</h4>
-            <!-- <h4>CHALLENGES</h4> -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meri Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="nav">
+        <img src="Assets/FJlogo.svg" alt="" />
+        <h4>Home</h4>
+        <h4>Products</h4>
+        <h4>MY Playlist</h4>
+        <h4>About Us</h4>
+        <!-- <h4>CHALLENGES</h4> -->
+    </div>
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+
+    <video autoplay loop muted src="Assets/FT.mp4"></video>
+    <div id="main">
+        <div id="page1">
+            <h1>LIFT. LEARN. LIVE.</h1>
+            <h2>WELCOME TO YOUR ONLINE FITNESS DESTINATION!</h2>
+            <p>
+                Join Our growing community on YouTube and Instagram to begin your fitness journey from the comfort of your home.
+                Together, we’ll achieve your health and wellness goals with fun!.
+            </p>
+            <div id="arrow">
+                <i class="ri-arrow-down-line"></i>
+            </div>
         </div>
-        <video autoplay loop muted src="Assets/FT.mp4"></video>
-        <div id="main">
-            <div id="page1">
-                <h1>LIFT. LEARN. LIVE.</h1>
-                <h2>WELCOME TO YOUR ONLINE FITNESS DESTINATION!</h2>
-                <p>
-                    Join my growing community on YouTube and Instagram to begin your fitness journey from the comfort of your home.
-                    Together, we’ll achieve your health and wellness goals with fun!.
-                </p>
         <div id="page2">
             <div id="scroller">
                 <div id="scroller-in">
@@ -41,11 +53,17 @@
                     <h4>CHALLENGES</h4>
                 </div>
             </div>
-            <div id="about-us-in">
-                <h3>ABOUT ME</h3>
-                <p>
-                    I’m an experienced online fitness trainer and influencer dedicated to helping individuals achieve their fitness goals. Through engaging YouTube videos and Instagram posts, I create content that empowers people to transform their lives with consistent and fun workouts.
-                </p>
+            <div id="about-us">
+                <img src="" alt="" />
+                <!-- Left IMG -->
+                <div id="about-us-in">
+                    <h3>ABOUT ME</h3>
+                    <p>
+                        I’m an experienced online fitness trainer and influencer dedicated to helping individuals achieve their fitness goals. Through engaging YouTube videos and Instagram posts, I create content that empowers people to transform their lives with consistent and fun workouts.
+                    </p>
+                </div>
+                <img src="" alt="" />
+                <!-- Right IMG -->
             </div>
             <div id="cards-container">
                 <div class="card" id="card1">
@@ -74,15 +92,19 @@
                 </div>
             </div>
             <div id="green-div">
+                <img src="" alt="" /> <!-- SVG Background -->
                 <h4>
                     SIGN UP FOR FITNESS TIPS AND EXCLUSIVE WORKOUTS STRAIGHT TO YOUR INBOX
                 </h4>
+                <img src="" alt="" /><!-- SVG Background -->
             </div>
         </div>
         <div id="page3">
             <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem fugit quae dicta dignissimos! Eos aliquid culpa excepturi iste suscipit, porro quasi vel doloribus nesciunt in quia, esse enim nihil asperiores!
             </p>
+            <img id="colon1" src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-left.svg" alt="" /><!-- Left Colon IMG -->
+            <img id="colon2" src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-right.svg" alt="" /> <!-- Right Colon IMG -->
         </div>
         <div id="page4">
             <h1>WHAT ARE YOU WAITING FOR?</h1>
@@ -100,7 +122,9 @@
             </div>
         </div>
         <div id="footer">
+            <img src="" alt="" /><!-- Footer SVG -->
             <div id="f1">
+                <img src="Assets/FJlogo.svg" alt="" />
             </div>
             <div id="f2">
                 <h3>Back Training</h3>
@@ -122,5 +146,9 @@
             </div>
         </div>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js" integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js" integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4QAUy3We5HFOZUlkUpP0dkgE60A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
 </body>
 </html>
