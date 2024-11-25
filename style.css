@@ -11,6 +11,21 @@ html,body {
   
     width: 100%;
 }
+*::selection {
+  background-color: #fff;
+  color: red;
+}
+
+body::-webkit-scrollbar {
+  display: block;
+  width: 8px;
+  background: red;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #fff;
+
+  border-radius: 50px;
+}
 body {
     overflow-x: hidden;
 }
