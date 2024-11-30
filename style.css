@@ -278,7 +278,7 @@ video {
   transform: rotate3d(-1, 1, 0, 20deg);
 }
 
-#green-div {
+#svg-div {
   height: 30vh;
   display: flex;
   align-items: center;
@@ -286,7 +286,7 @@ video {
   /* background-color: red; */
   background: linear-gradient(to left bottom, blue,yellow);
 }
-#green-div h4 {
+#svg-div h4 {
   width: 45%;
   line-height: 50px;
   color: #000;
@@ -295,7 +295,7 @@ video {
   font-size: 27px;
   text-transform: uppercase;
 }
-#green-div img {
+#svg-div img {
   height: 100%;
   object-fit: cover;
   width: 14%;
