@@ -284,7 +284,7 @@ video {
   align-items: center;
   justify-content: space-between;
   /* background-color: red; */
-  background: linear-gradient(to left bottom, blue,yellow);
+  background: linear-gradient(to left bottom, #ffe7e7, #4e2b2b33);
 }
 #svg-div h4 {
   width: 45%;
