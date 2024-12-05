@@ -1,8 +1,20 @@
+@font-face {
+  font-family: 'Courier Prime Italic';
+  src: url(Fonts/Courier\ Prime\ Italic.ttf);
+}
+@font-face {
+  font-family: 'Cities at Night';
+  src: url(Fonts/Cities\ at\ Night.ttf);
+}
+@font-face {
+  font-family: 'Sansation-Italic';
+  src: url(Fonts/Sansation-Italic.ttf);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "montserrat";
+  font-family: "Sansation-Italic";
   color: #fff;
 }
 
@@ -173,7 +185,7 @@ video {
   display: inline-block;
   font-size: 120px;
   font-weight: 900;
-  font-family: gilroy;
+  font-family: Cities at Night;
   margin-right: 20px;
   transition: all linear 0.3s;
   color: #000;
@@ -319,6 +331,7 @@ video {
   width: 60%;
   line-height: 45px;
   text-align: center;
+  font-family: Courier Prime Italic;
 }
 
 #page3 img {
