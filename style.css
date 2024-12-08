@@ -257,13 +257,13 @@ video {
   transition: all ease 0.6s;
 }
 #card1 {
-  background-image: url(Assets/Cbum1.jpeg);
+  background-image: url(Assets/Img4.jpg);
 }
 #card2 {
-  background-image: url(Assets/Cbum2.jpeg);
+  background-image: url(Assets/Img3.jpg);
 }
 #card3 {
-  background-image: url(Assets/Full\ Body.jpg);
+  background-image: url(Assets/Img1.jpg);
 }
 .overlay {
   height: 100%;
